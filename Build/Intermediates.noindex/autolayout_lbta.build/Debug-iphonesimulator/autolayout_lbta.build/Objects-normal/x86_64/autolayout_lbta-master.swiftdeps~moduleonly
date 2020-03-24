@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+options: "37b68753b5e244ab3faddb6091045113"
+build_time: [1585019908, 583461000]
+inputs:
+  "/Users/congle/Desktop/SWIFT/autolayout_lbta/autolayout_lbta/Controller/SwippingController+UICollectionView.swift": [1585019715, 645544497]
+  "/Users/congle/Desktop/SWIFT/autolayout_lbta/autolayout_lbta/Controller/SwippingControlller+Extension.swift": [1585019908, 448713632]
+  "/Users/congle/Desktop/SWIFT/autolayout_lbta/autolayout_lbta/Controller/UIColor+Extension.swift": [1585018315, 956791296]
+  "/Users/congle/Desktop/SWIFT/autolayout_lbta/autolayout_lbta/Controller/SwippingController.swift": [1585019643, 430440109]
+  "/Users/congle/Desktop/SWIFT/autolayout_lbta/autolayout_lbta/View/PageCell.swift": [1585019697, 311041571]
+  "/Users/congle/Desktop/SWIFT/autolayout_lbta/autolayout_lbta/Model/Page.swift": [1585018201, 59478526]
+  "/Users/congle/Desktop/SWIFT/autolayout_lbta/autolayout_lbta/AppDelegate.swift": [1585019239, 883362388]
