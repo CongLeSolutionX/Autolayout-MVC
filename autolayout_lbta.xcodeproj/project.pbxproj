@@ -7,31 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03932FE8218A98EE0EE35B47 /* Pods_autolayout_lbta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6787370FC5A77F7738C88F /* Pods_autolayout_lbta.framework */; };
 		4CCC3F2D242837EC0022091A /* SwippingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC3F2C242837EC0022091A /* SwippingController.swift */; };
 		4CCC3F2F24283F820022091A /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC3F2E24283F820022091A /* PageCell.swift */; };
 		4CCC3F312428FC130022091A /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC3F302428FC130022091A /* Page.swift */; };
 		4CCC3F3624291EF20022091A /* SwippingControlller+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC3F3524291EF20022091A /* SwippingControlller+Extension.swift */; };
 		4CCC3F38242921440022091A /* SwippingController+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC3F37242921440022091A /* SwippingController+UICollectionView.swift */; };
-		4CCC3F3B242930CF0022091A /* PageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC3F3A242930CF0022091A /* PageViewModel.swift */; };
+		4CCC3F3D24297D530022091A /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCC3F3C24297D530022091A /* UIColor+Extension.swift */; };
 		C79CF60D1F79AE6F00C1D117 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79CF60C1F79AE6F00C1D117 /* AppDelegate.swift */; };
-		C79CF60F1F79AE6F00C1D117 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79CF60E1F79AE6F00C1D117 /* ViewController.swift */; };
 		C79CF6141F79AE6F00C1D117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C79CF6131F79AE6F00C1D117 /* Assets.xcassets */; };
 		C79CF6171F79AE6F00C1D117 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79CF6151F79AE6F00C1D117 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AB106EA56D1C24214CE6E99 /* Pods-autolayout_lbta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-autolayout_lbta.release.xcconfig"; path = "Target Support Files/Pods-autolayout_lbta/Pods-autolayout_lbta.release.xcconfig"; sourceTree = "<group>"; };
+		44E4F1314008DBEEFDD43948 /* Pods-autolayout_lbta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-autolayout_lbta.debug.xcconfig"; path = "Target Support Files/Pods-autolayout_lbta/Pods-autolayout_lbta.debug.xcconfig"; sourceTree = "<group>"; };
 		4CCC3F2C242837EC0022091A /* SwippingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwippingController.swift; sourceTree = "<group>"; };
 		4CCC3F2E24283F820022091A /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
 		4CCC3F302428FC130022091A /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		4CCC3F3524291EF20022091A /* SwippingControlller+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwippingControlller+Extension.swift"; sourceTree = "<group>"; };
 		4CCC3F37242921440022091A /* SwippingController+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwippingController+UICollectionView.swift"; sourceTree = "<group>"; };
-		4CCC3F3A242930CF0022091A /* PageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewModel.swift; sourceTree = "<group>"; };
+		4CCC3F3C24297D530022091A /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		C79CF6091F79AE6F00C1D117 /* autolayout_lbta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autolayout_lbta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79CF60C1F79AE6F00C1D117 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C79CF60E1F79AE6F00C1D117 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C79CF6131F79AE6F00C1D117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C79CF6161F79AE6F00C1D117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C79CF6181F79AE6F00C1D117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD6787370FC5A77F7738C88F /* Pods_autolayout_lbta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_autolayout_lbta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03932FE8218A98EE0EE35B47 /* Pods_autolayout_lbta.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,20 +67,20 @@
 		4CCC3F3424290B910022091A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C79CF60E1F79AE6F00C1D117 /* ViewController.swift */,
 				4CCC3F2C242837EC0022091A /* SwippingController.swift */,
 				4CCC3F3524291EF20022091A /* SwippingControlller+Extension.swift */,
 				4CCC3F37242921440022091A /* SwippingController+UICollectionView.swift */,
+				4CCC3F3C24297D530022091A /* UIColor+Extension.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		4CCC3F39242922A70022091A /* ViewModel */ = {
+		8F3CFE5DFDC5EBCF0862B017 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4CCC3F3A242930CF0022091A /* PageViewModel.swift */,
+				FD6787370FC5A77F7738C88F /* Pods_autolayout_lbta.framework */,
 			);
-			path = ViewModel;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C79CF6001F79AE6E00C1D117 = {
@@ -85,6 +88,8 @@
 			children = (
 				C79CF60B1F79AE6F00C1D117 /* autolayout_lbta */,
 				C79CF60A1F79AE6F00C1D117 /* Products */,
+				D8A9DBD6EF624FB45D1A83EE /* Pods */,
+				8F3CFE5DFDC5EBCF0862B017 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				4CCC3F3224290B7E0022091A /* Model */,
-				4CCC3F39242922A70022091A /* ViewModel */,
 				4CCC3F3324290B860022091A /* View */,
 				4CCC3F3424290B910022091A /* Controller */,
 				C79CF60C1F79AE6F00C1D117 /* AppDelegate.swift */,
@@ -111,6 +115,15 @@
 			path = autolayout_lbta;
 			sourceTree = "<group>";
 		};
+		D8A9DBD6EF624FB45D1A83EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44E4F1314008DBEEFDD43948 /* Pods-autolayout_lbta.debug.xcconfig */,
+				3AB106EA56D1C24214CE6E99 /* Pods-autolayout_lbta.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C79CF61B1F79AE6F00C1D117 /* Build configuration list for PBXNativeTarget "autolayout_lbta" */;
 			buildPhases = (
+				8FAEBC63BA1FBE44E573387F /* [CP] Check Pods Manifest.lock */,
 				C79CF6051F79AE6E00C1D117 /* Sources */,
 				C79CF6061F79AE6E00C1D117 /* Frameworks */,
 				C79CF6071F79AE6E00C1D117 /* Resources */,
+				4C0724F02429AC340084F82C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -139,7 +154,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 1100;
-				ORGANIZATIONNAME = "Lets Build That App";
+				ORGANIZATIONNAME = CongLeSolutionX;
 				TargetAttributes = {
 					C79CF6081F79AE6E00C1D117 = {
 						CreatedOnToolsVersion = 9.0;
@@ -178,19 +193,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C0724F02429AC340084F82C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		8FAEBC63BA1FBE44E573387F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-autolayout_lbta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C79CF6051F79AE6E00C1D117 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C79CF60F1F79AE6F00C1D117 /* ViewController.swift in Sources */,
 				4CCC3F38242921440022091A /* SwippingController+UICollectionView.swift in Sources */,
 				4CCC3F3624291EF20022091A /* SwippingControlller+Extension.swift in Sources */,
+				4CCC3F3D24297D530022091A /* UIColor+Extension.swift in Sources */,
 				4CCC3F2D242837EC0022091A /* SwippingController.swift in Sources */,
 				4CCC3F2F24283F820022091A /* PageCell.swift in Sources */,
 				4CCC3F312428FC130022091A /* Page.swift in Sources */,
 				C79CF60D1F79AE6F00C1D117 /* AppDelegate.swift in Sources */,
-				4CCC3F3B242930CF0022091A /* PageViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,13 +377,14 @@
 		};
 		C79CF61C1F79AE6F00C1D117 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44E4F1314008DBEEFDD43948 /* Pods-autolayout_lbta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TU4944T6UG;
 				INFOPLIST_FILE = autolayout_lbta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.letsbuildthatapp.autolayout-lbta";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.CongLeSolutionX.autolayout-lbta";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -336,13 +393,14 @@
 		};
 		C79CF61D1F79AE6F00C1D117 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AB106EA56D1C24214CE6E99 /* Pods-autolayout_lbta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TU4944T6UG;
 				INFOPLIST_FILE = autolayout_lbta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.letsbuildthatapp.autolayout-lbta";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.CongLeSolutionX.autolayout-lbta";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

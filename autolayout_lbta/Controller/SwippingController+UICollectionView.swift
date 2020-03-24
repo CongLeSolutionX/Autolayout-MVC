@@ -9,25 +9,19 @@
 import UIKit
 
 extension SwippingController {
-    //MARK: CollectionViewDelegate
-    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cellId", for: indexPath) as! PageCell
-        
-        // select current image/description with corresponding index cell
-//
-//        let page = pages[indexPath.item]
-//        cell.page = page
-        
-        
-        // cell.backgroundColor = indexPath.item % 2 == 0 ? .red : .green // iterate 2 items with 2 different color
+    // MARK: CollectionViewDelegate
+    override func collectionView(_ collectionView: UICollectionView,
+                                 cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        // swiftlint:disable:next force_cast
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! PageCell
+        let page = pages[indexPath.item]
+        cell.page = page
         return cell
     }
-    
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return pages.count
     }
-    
-    //MARK: CollectionViewDelegateFlowLayoutDelegate
+    // MARK: CollectionViewDelegateFlowLayoutDelegate
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: view.frame.width, height: view.frame.height)
     }
@@ -36,4 +30,3 @@ extension SwippingController {
         return 0
     }
 }
-
